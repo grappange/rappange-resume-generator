@@ -4,40 +4,69 @@ import { Briefcase } from "lucide-react";
 
 const experiences = [
   {
-    title: "Senior Software Developer",
+    title: "Full Stack Developer (.NET / Angular / Azure)",
+    company: "BDO Holding B.V.",
+    location: "Eindhoven",
+    period: "May 2024 - Present",
+    description: "As senior full stack .NET developer in a team of 8, worked on addressing security issues found by the Security Improvement Group. Working on a custom application developed in .NET WebForms (MVC/Angular) for time registration by all BDO employees (3,500) and the entire CRM and invoicing (including SQL Reports) process. Also mentored and onboarded junior developers.",
+    technologies: ["Visual Studio 2022", "C#", "AngularJS", ".NET 4.8", "MVC", "SQLServer 2022", "SSRS", "Scrum", "Azure DevOps"],
+  },
+  {
+    title: "Full Stack Developer (.NET / Angular / Azure / Sitecore)",
+    company: "Achmea",
+    location: "Tilburg",
+    period: "December 2020 - April 2024",
+    description: "Worked in a DevOps team on maintenance (adding new features) of web APIs for completing AOV insurance. Also co-responsible for maintaining portals/sales funnels built in Sitecore.",
+    technologies: ["Visual Studio 2019/2022", "C#", "Angular 10", ".NET 4.8", ".NET Core", "Scrum", "Azure DevOps", "Streamserve", "SAP"],
+  },
+  {
+    title: "Full Stack Developer (.NET / Angular / K8s / Azure)",
+    company: "VGZ",
+    location: "Arnhem",
+    period: "December 2020 - April 2024",
+    description: "Worked on the development of a voice chatbot. At VGZ's innovation department, a voice-chatbot was developed to handle customer contacts via telephone. Contributed to a management tool so that flow builders can develop flows (BPMN) to model conversation flows, such as address changes, querying reimbursements, etc.",
+    technologies: ["Visual Studio 2019", "C#", "Angular 9", ".NET Core 5.0", "Scrum", "Azure DevOps", "Azure SQL", "K8s", "Azure Dev Spaces", "Telecats API"],
+  },
+  {
+    title: "Full Stack Developer (Azure)",
     company: "Amadeus Hospitality",
-    period: "2018 - 2020",
-    description: "Responsible for the development (front and backend) of new functionality in an existing SPA (single page app) Property Management System (Hospitality) hosted in Azure. Part of a scrum team of 10 people including 5 Sr. developers (2 QA and a PO).",
-    technologies: ["Azure DevOps", "C#", "Angular", "Webpack", "HTML/SASS", "SQL Azure"],
+    location: "Breda",
+    period: "August 2018 - June 2020",
+    description: "In a scrum team of 8 people (5 dev, 2 QA, 1 PO) responsible for the development of a cloud Property Management System. The team's domain was accounting (folios/ledgers/postings/payment). Did both front-end (Angular) and backend (C#) development. Also heavily involved in test automation through deployment of Selenium in frontend and SpecFlow in backend.",
+    technologies: ["Visual Studio 2019", "C#", "Angular 6", "Scrum", "Azure DevOps", "Azure SQL", "Selenium (BDD)", "SpecFlow"],
   },
   {
-    title: "Senior Software Developer",
-    company: "Rabobank",
-    period: "2016 - 2018",
-    description: "Responsible for the development of a workflow engine in an existing credit rating system and for the development of the data Warehouse for reporting. Worked in a scrum team of 12 people including seven experienced Sr. developers.",
-    achievements: "UX improvements and improved time consuming creation of risk models",
-    technologies: ["Vue/JavaScript", "C#", "SQL", "SQL BI"],
+    title: "Sr. BI Developer",
+    company: "Rabobank International",
+    location: "Utrecht",
+    period: "January 2016 - July 2018",
+    description: "Responsible for the development of a workflow engine in an existing credit rating system and for the development of the data warehouse for reporting. Worked in a scrum team of 12 people including seven experienced Sr. developers, all according to TDD.",
+    achievements: "UX improvements and improved time-consuming creation of risk models",
+    technologies: ["Visual Studio 2017", "C#", "Scrum", "TFS 2017", "SQLServer 2016", "SSIS/SSRS", "Selenium", "SpecFlow", "TDD", "MVC", "CQRS", "SOLID"],
   },
   {
-    title: "Senior Software Developer",
-    company: "ABN AMRO",
-    period: "2014 - 2016",
-    description: "In a team of four responsible for the development of the prepayment Module of ABN Commercial Finance. A Windows application that handles the handling of applications for asset based (invoices/stocks) loans. In addition, realized a connection to a new core system (Aquarius) through Web services.",
-    technologies: ["ASP.NET", "VB.NET", "SQLServer", "HPD – Aquarius"],
+    title: "Sr. (BI) Developer / Architect",
+    company: "ABN AMRO Commercial Finance",
+    location: "Den Bosch",
+    period: "October 2014 - December 2015",
+    description: "In a team of four responsible for the development of the Prepayment Module of ACF. A Windows application that handles applications for asset-based (invoices/stocks) loans. In addition, realized a connection to a new core system (Aquarius) through web services.",
+    technologies: ["Visual Studio 2013/2015", "VB.NET", "Scrum", "TFS 2013", "SQLServer 2014", "SSIS", "HPD - Aquarius"],
   },
   {
-    title: "Senior Web Developer (Scrum Master)",
-    company: "Sunweb",
-    period: "2014",
-    description: "Responsible of the development of a Gateway tool. This gateway tool (scheduled Windows application) imports accommodations, prices (including discounts), and inventories from vendors (hotels, apartments, campings, via XML links) to a central data warehouse of Sundio Group.",
-    technologies: ["ASP.NET", "jQuery", "HTML/LESS", "C#.NET", "SQLServer"],
+    title: "Sr. Developer / Scrum Master",
+    company: "Sundio Group / Sunweb",
+    location: "Rotterdam",
+    period: "January 2014 - September 2014",
+    description: "Development of the gateway tool. This tool (scheduled Windows application) imports accommodations, prices (including discounts), and inventories from vendors (via XML links) to a central database of Sundio. The data is then exported via stored procedures to the back office system named Davinci.",
+    technologies: ["Visual Studio 2012", "ASP.NET", "C#.NET", "Scrum/Agile", "Unit/Integration tests (TDD)", "SVN", "TeamCity", "SQLServer 2012", "SSIS/SSRS"],
   },
   {
-    title: "Senior Web Developer",
-    company: "Visma (Raet)",
-    period: "2012 - 2013",
-    description: "The current payroll system of the barge made suitable for administration and accountants offices (project). Especially backend development work in C# in a 3-tier architecture with links to various internal (self-service, file online) and external parties (Deloitte, POSTNL).",
-    technologies: ["ASP.NET", "jQuery", "EAV database model", "C#.NET", "SQLServer"],
+    title: "Sr. Developer",
+    company: "Raet / YouForce",
+    location: "Amersfoort",
+    period: "March 2012 - December 2013",
+    description: "Made the current Raet payroll system suitable for Administration and Accountants Offices (AAK project). Mainly backend development work in C# in a 3-tier architecture with links to various internal (self service, dossier online) and external parties (Deloitte, PostNL).",
+    technologies: ["Visual Studio 2012", "ASP.NET", "C#.NET 4.0", "Scrum", "Unit/Integration tests (BDD)", "TFS 2012", "SQLServer 2008 R2", "EAV database model"],
   },
 ];
 
@@ -58,6 +87,11 @@ export const WorkExperience = () => {
                   <CardDescription className="text-base font-semibold text-primary mt-1">
                     {exp.company}
                   </CardDescription>
+                  {exp.location && (
+                    <CardDescription className="text-sm mt-1">
+                      {exp.location}
+                    </CardDescription>
+                  )}
                 </div>
                 <Badge variant="outline" className="text-sm">
                   {exp.period}

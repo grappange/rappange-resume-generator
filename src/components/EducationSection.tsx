@@ -17,18 +17,40 @@ const education = [
 
 const certifications = [
   {
+    title: "AZ-204",
+    description: "Microsoft Azure Developer Associate",
+    year: "2023",
+    location: "@Academy / Eindhoven",
+  },
+  {
+    title: "Certified Safe 5 Agile Software Engineer",
+    year: "2021",
+    location: "Agile Inc / Tilburg",
+  },
+  {
+    title: "Gesprekstechnieken voor coaching/projectleiders",
+    year: "2012",
+    location: "Wim Donders / Tilburg",
+  },
+  {
     title: "MCSD",
-    description: "Microsoft Certified Solution Developer",
+    description: "Microsoft Certified Solution Developer .NET",
     year: "2006",
   },
   {
     title: "MCAD",
-    description: "Microsoft Certified Application Developer",
+    description: "Microsoft Certified Application Developer .NET",
     year: "2006",
   },
   {
-    title: "MSRS/MSAS @ Computrain",
+    title: "Microsoft SqlServer Analysis Server",
     year: "2005",
+    location: "Temtec, 's Hertogenbosch",
+  },
+  {
+    title: "Microsoft SqlServer Reporting Services",
+    year: "2005",
+    location: "Computrain, Utrecht",
   },
 ];
 
@@ -37,7 +59,7 @@ const languages = [
   { language: "English", level: "Professional" },
 ];
 
-const interests = ["Playing Guitar", "Snowboarding", "Cooking"];
+const interests = ["Guitar", "Football/Soccer", "Mountain Biking"];
 
 export const EducationSection = () => {
   return (
@@ -76,6 +98,9 @@ export const EducationSection = () => {
                 <CardTitle className="text-lg">{cert.title}</CardTitle>
                 {cert.description && (
                   <CardDescription className="text-base">{cert.description}</CardDescription>
+                )}
+                {cert.location && (
+                  <CardDescription className="text-sm">{cert.location}</CardDescription>
                 )}
               </CardHeader>
               <CardContent>

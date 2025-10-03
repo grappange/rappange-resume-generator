@@ -1,7 +1,9 @@
 import { ResumeHeader } from "@/components/ResumeHeader";
 import { CareerSummary } from "@/components/CareerSummary";
+import { NotableClients } from "@/components/NotableClients";
 import { SkillsSection } from "@/components/SkillsSection";
 import { WorkExperience } from "@/components/WorkExperience";
+import { TechnologiesSection } from "@/components/TechnologiesSection";
 import { ProjectsSection } from "@/components/ProjectsSection";
 import { TestimonialsSection } from "@/components/TestimonialsSection";
 import { EducationSection } from "@/components/EducationSection";
@@ -14,8 +16,10 @@ const Index = () => {
       <div className="max-w-6xl mx-auto py-8 px-4 sm:px-6 lg:px-8">
         <ResumeHeader />
         <CareerSummary />
+        <NotableClients />
         <SkillsSection />
         <WorkExperience />
+        <TechnologiesSection />
         <ProjectsSection />
         <EducationSection />
         <TestimonialsSection />
