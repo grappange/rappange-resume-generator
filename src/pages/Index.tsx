@@ -1,7 +1,10 @@
 import { ResumeHeader } from "@/components/ResumeHeader";
+import { CareerSummary } from "@/components/CareerSummary";
 import { SkillsSection } from "@/components/SkillsSection";
+import { WorkExperience } from "@/components/WorkExperience";
 import { ProjectsSection } from "@/components/ProjectsSection";
 import { TestimonialsSection } from "@/components/TestimonialsSection";
+import { EducationSection } from "@/components/EducationSection";
 import { Button } from "@/components/ui/button";
 import { Mail } from "lucide-react";
 
@@ -10,8 +13,11 @@ const Index = () => {
     <div className="min-h-screen bg-background">
       <div className="max-w-6xl mx-auto py-8 px-4 sm:px-6 lg:px-8">
         <ResumeHeader />
+        <CareerSummary />
         <SkillsSection />
+        <WorkExperience />
         <ProjectsSection />
+        <EducationSection />
         <TestimonialsSection />
         
         <section className="mt-12 text-center bg-gradient-to-br from-primary/5 to-accent/5 rounded-lg p-12 border border-border">
